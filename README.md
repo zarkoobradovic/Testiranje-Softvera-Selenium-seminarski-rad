@@ -1,1 +1,1 @@
-# Testiranje-Softvera-Selenium-seminarski-rad
+# Testiranje-Softvera-Selenium-seminarski-rad-Tempo-tehnika
