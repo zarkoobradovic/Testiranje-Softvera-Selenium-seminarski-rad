@@ -1,0 +1,1333 @@
+{
+  "id": "13671b09-a188-49dd-b1ae-3f0d06df2336",
+  "version": "2.0",
+  "name": "Projekat iz TSW 190/2018",
+  "url": "https://www.tempo-tehnika.rs",
+  "tests": [{
+    "id": "d0b896e7-3fc9-4bd9-9fdb-a5231f5043a9",
+    "name": "ProveraDrustvenihMreza",
+    "commands": [{
+      "id": "d26097d5-87a3-4639-a970-e5bd863abe33",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0050c68-f8aa-46c0-bc87-b1c0b596117e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a4c331-74fe-4c36-acc6-4047fff3b9e0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.JSright-body-link",
+      "targets": [
+        ["css=.JSright-body-link", "css:finder"],
+        ["xpath=//body[@id='start-page']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tempo-tehnika.rs/januar---mesecna-akcija')])[5]", "xpath:href"],
+        ["xpath=//body/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f955aa6f-5d1c-4d4d-be95-d01583d8a291",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.JSright-body-link",
+      "targets": [
+        ["css=.JSright-body-link", "css:finder"],
+        ["xpath=//body[@id='start-page']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tempo-tehnika.rs/januar---mesecna-akcija')])[5]", "xpath:href"],
+        ["xpath=//body/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c833289a-f89b-433d-8952-8327c202d8cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-facebook-f",
+      "targets": [
+        ["css=.fa-facebook-f", "css:finder"],
+        ["xpath=//div[@id='preheader']/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2609",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7ebde9e-f658-40c8-9880-4eb3055b4d1d",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bffc2de5-dd76-4e06-8175-43ac52bb36f5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2609}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d08b56ca-f2e5-45cf-bc1c-0d1fe0b61799",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eb65db2-c2bc-46dc-a9a6-9d1edc75338c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-instagram",
+      "targets": [
+        ["css=.fa-instagram", "css:finder"],
+        ["xpath=//div[@id='preheader']/div/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6759",
+      "windowTimeout": 2000
+    }, {
+      "id": "4ab6d942-5310-4a5c-8b88-8b5beeea5fe3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6759}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90e86adb-3d19-4bee-825b-94e84f10abaf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f0a340-a923-4482-b24a-dc77166184d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-youtube",
+      "targets": [
+        ["css=.fa-youtube", "css:finder"],
+        ["xpath=//div[@id='preheader']/div/a[3]/i", "xpath:idRelative"],
+        ["xpath=//a[3]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9937",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7c30306-256c-4c82-b026-fc235377b102",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9937}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e402b498-eca5-47f5-910a-539f41be1f8b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=video-title",
+      "targets": [
+        ["id=video-title", "id"],
+        ["linkText=AKCIJA - FEBRUAR 2019 -", "linkText"],
+        ["css=.title-and-badge > #video-title", "css:finder"],
+        ["xpath=//a[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='title-wrapper']/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/watch?v=oA0GbogT5oU')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AKCIJA - FEBRUAR 2019 -')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6e4d1ab-7fd2-4cf8-98e4-f4e0ac4fc9f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=video-title",
+      "targets": [
+        ["id=video-title", "id"],
+        ["linkText=AKCIJA - FEBRUAR 2019 -", "linkText"],
+        ["css=.title-and-badge > #video-title", "css:finder"],
+        ["xpath=//a[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='title-wrapper']/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/watch?v=oA0GbogT5oU')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AKCIJA - FEBRUAR 2019 -')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15f337f6-c95b-4726-b696-155326deceb4",
+    "name": "DodavanjeUkorpu3prozivoda",
+    "commands": [{
+      "id": "797c212f-f07a-4114-bb48-54c4063daaae",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5688916b-fa10-4cb7-aa2d-9980c06cdfd9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb52904b-d410-414e-84b6-382c70276cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JScategories > .text-center",
+      "targets": [
+        ["css=.JScategories > .text-center", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Kategorije ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "926fa84f-a049-4f36-9b64-2ab508a08094",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TV, AUDIO,VIDEO",
+      "targets": [
+        ["linkText=TV, AUDIO,VIDEO", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/tv--audio-video')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d2693b-911b-4010-a0d7-7eb331f483b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TELEVIZORI",
+      "targets": [
+        ["linkText=TELEVIZORI", "linkText"],
+        ["css=.col-md-3:nth-child(1) > .flex", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tempo-tehnika.rs/tv--audio-video/televizori')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb902efa-da91-4d5b-8db2-2ef44067cd51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSproduct:nth-child(11) .product-image",
+      "targets": [
+        ["css=.JSproduct:nth-child(11) .product-image", "css:finder"],
+        ["xpath=//img[@alt=\"Alpha TV 32G7NH, 32'' HD Ready, DVB-TT2C\"]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div[4]/div[11]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faaaab26-9962-4d2b-9e12-d5e774d948a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSAddCartSubmit",
+      "targets": [
+        ["id=JSAddCartSubmit", "id"],
+        ["css=#JSAddCartSubmit", "css:finder"],
+        ["xpath=//button[@id='JSAddCartSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='JSAddCartForm']/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'U korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4054fed-696e-4dc8-bd35-78613611500a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img-responsive:nth-child(2)",
+      "targets": [
+        ["css=.img-responsive:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Tempo Tehnika']", "xpath:img"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div/h1/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1589d6ab-a755-4900-b81b-51d23b8ed5d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JScategories > .text-center",
+      "targets": [
+        ["css=.JScategories > .text-center", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Kategorije ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d986613-f4bd-4b9f-a96a-16607cf52ed5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MOBILNI TELEFONI I TABLETI",
+      "targets": [
+        ["linkText=MOBILNI TELEFONI I TABLETI", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/mobilni-telefoni-i-tableti')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "625771e9-5a50-464a-9afe-85953095eaa2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MOBILNI TELEFONI I TABLETI",
+      "targets": [
+        ["linkText=MOBILNI TELEFONI I TABLETI", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/mobilni-telefoni-i-tableti')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ebae95-725c-402b-8860-aff23e5fb81d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(1) > .flex > span",
+      "targets": [
+        ["css=.col-md-3:nth-child(1) > .flex > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fee8e730-7a6d-41e0-8346-2cb12248b17a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSproduct:nth-child(6) .product-image",
+      "targets": [
+        ["css=.JSproduct:nth-child(6) .product-image", "css:finder"],
+        ["xpath=//img[@alt='NOKIA 2720 Flip, crna (16BTSB01A03) ']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div[4]/div[6]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e66e9c7f-7e7e-48a5-ba09-23f1a8b6130f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=JSAddCartSubmit",
+      "targets": [
+        ["id=JSAddCartSubmit", "id"],
+        ["css=#JSAddCartSubmit", "css:finder"],
+        ["xpath=//button[@id='JSAddCartSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='JSAddCartForm']/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'U korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a52800-9d87-473e-b94e-82dd93bbe50e",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSAddCartSubmit",
+      "targets": [
+        ["id=JSAddCartSubmit", "id"],
+        ["css=#JSAddCartSubmit", "css:finder"],
+        ["xpath=//button[@id='JSAddCartSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='JSAddCartForm']/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'U korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "450ffabd-4d24-4b3d-8d35-eeb83356e4bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img-responsive:nth-child(2)",
+      "targets": [
+        ["css=.img-responsive:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Tempo Tehnika']", "xpath:img"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div/h1/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd457488-a3be-4208-a8b7-425e8116a81d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=TV, AUDIO,VIDEO",
+      "targets": [
+        ["linkText=TV, AUDIO,VIDEO", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/tv--audio-video')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65711bdb-7eae-44cf-9c25-6163c9184d5a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=TV, AUDIO,VIDEO",
+      "targets": [
+        ["linkText=TV, AUDIO,VIDEO", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/tv--audio-video')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff5ddae-eaaa-4f6b-9915-327fed35c61d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSlevel-1 > li:nth-child(5) > a",
+      "targets": [
+        ["css=.JSlevel-1 > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/laptop--i-desktop-racunari')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04492bf-f990-4e9a-935f-3bdbb6513761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(1) > .flex > span",
+      "targets": [
+        ["css=.col-md-3:nth-child(1) > .flex > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'LAPTOP RAČUNARI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc69679a-a801-4ba7-9a36-e2529669c21c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSproduct:nth-child(9) .product-image",
+      "targets": [
+        ["css=.JSproduct:nth-child(9) .product-image", "css:finder"],
+        ["xpath=//img[@alt=\"ASUS Laptop 14'' X409FA-BV301T i3-10110U 4GB 256GB Win 10 Home\"]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div[4]/div[9]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0b2420-c069-4b16-bac4-622dcccb727a",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSAddCartSubmit",
+      "targets": [
+        ["id=JSAddCartSubmit", "id"],
+        ["css=#JSAddCartSubmit", "css:finder"],
+        ["xpath=//button[@id='JSAddCartSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='JSAddCartForm']/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'U korpu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd9b34a-d69b-40bd-94b4-0393125abf4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[4]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36fd6e9-0ce1-4b00-beaf-ed7ae5747ab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSdelivery_total_amount",
+      "targets": [
+        ["css=.JSdelivery_total_amount", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e588ecfd-213c-4920-a818-4fa65f0cbb0b",
+    "name": "ListaZelja",
+    "commands": [{
+      "id": "c4f47ac2-b930-4837-87a6-caa988c5db11",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62b9cc20-823d-47a2-bccf-f14fa2343b8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "160706d5-cec0-4a14-8957-b79709ffa56b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'  Moj nalog ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1090b073-37a9-4ed6-a3b4-e53749eeb557",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["linkText=Prijavi se", "linkText"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6351fa43-7bea-425c-9325-eeb5b21c2515",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["linkText=Prijavi se", "linkText"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a599b4a4-3d4a-4e89-b9c7-e09e17c834a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'\n                                     Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66c2b0b9-4f20-4750-ba25-906459fb25f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSemail_login",
+      "targets": [
+        ["id=JSemail_login", "id"],
+        ["css=#JSemail_login", "css:finder"],
+        ["xpath=//input[@id='JSemail_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a54945-210d-4e10-a2c5-0cadef0119bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=JSemail_login",
+      "targets": [
+        ["id=JSemail_login", "id"],
+        ["css=#JSemail_login", "css:finder"],
+        ["xpath=//input[@id='JSemail_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mejlzalekcije@gmail.com"
+    }, {
+      "id": "f61102e5-9f6a-499e-b7ad-04af5ea5c70f",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSpassword_login",
+      "targets": [
+        ["id=JSpassword_login", "id"],
+        ["css=#JSpassword_login", "css:finder"],
+        ["xpath=//input[@id='JSpassword_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd36136-6ad2-4ee6-836c-cfbcd7c4a152",
+      "comment": "",
+      "command": "type",
+      "target": "id=JSpassword_login",
+      "targets": [
+        ["id=JSpassword_login", "id"],
+        ["css=#JSpassword_login", "css:finder"],
+        ["xpath=//input[@id='JSpassword_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "adminadmin12345"
+    }, {
+      "id": "fb71fc7b-eea6-4460-a667-98829428ade1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d53a430-ef66-4ec4-ae31-5bc44f3f01e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ALATI",
+      "targets": [
+        ["linkText=ALATI", "linkText"],
+        ["css=.JSlevel-1 > li:nth-child(10) > a", "css:finder"],
+        ["xpath=//div[@id='responsive-nav']/div/div/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/alati')]", "xpath:href"],
+        ["xpath=//div/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0db44c-9f35-4365-815e-f6807238c511",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(1) > .flex > span",
+      "targets": [
+        ["css=.col-md-3:nth-child(1) > .flex > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ALAT SETOVI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2fede3f-26bc-4de2-9a5a-e4dac55dea80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DeWalt DCK211D2T 10.8, 2x2.0 Ah Akumulatorska bušilica - odvijač ...",
+      "targets": [
+        ["linkText=DeWalt DCK211D2T 10.8, 2x2.0 Ah Akumulatorska bušilica - odvijač ...", "linkText"],
+        ["css=.JSproduct:nth-child(1) .product-meta a", "css:finder"],
+        ["xpath=//a[contains(text(),'DeWalt DCK211D2T 10.8, 2x2.0 Ah Akumulatorska bušilica - odvijač ...')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div[4]/div/div/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tempo-tehnika.rs/artikal/dewalt-dck211d2t-10-8--2x2-0-ah-akumulatorska-busilica---odvijac-i-udarni-odvijac')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DeWalt DCK211D2T 10.8, 2x2.0 Ah Akumulatorska bušilica - odvijač ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e3ed87-15d3-4f8d-bffc-4a8b269c80de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSadd-to-wish > .far",
+      "targets": [
+        ["css=.JSadd-to-wish > .far", "css:finder"],
+        ["xpath=//form[@id='JSAddCartForm']/button/i", "xpath:idRelative"],
+        ["xpath=//form/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0de1a11-cc17-44ea-a053-fa1565d67cf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Žarko Obradović",
+      "targets": [
+        ["linkText=Žarko Obradović", "linkText"],
+        ["css=.logged-user:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Žarko Obradović')]", "xpath:link"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/korisnik/zarko-obradovic')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Žarko Obradović')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0296945b-d79a-4ee3-aad8-fd085db30bdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSproduct:nth-child(9) .product-meta",
+      "targets": [
+        ["css=.JSproduct:nth-child(9) .product-meta", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a7f7d399-4e8c-4d2a-b18c-afece6d5cb1d",
+    "name": "Registracija",
+    "commands": [{
+      "id": "c050f334-1250-431b-87aa-655723f13659",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08bc5755-79be-48af-99a2-7aec45e5f8e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24379305-9b82-42f0-8a20-87e992bc92d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=logout-button",
+      "targets": [
+        ["id=logout-button", "id"],
+        ["linkText=Odjavi se", "linkText"],
+        ["css=#logout-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Odjavi se')]", "xpath:link"],
+        ["xpath=//a[@id='logout-button']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/logout')]", "xpath:href"],
+        ["xpath=//div[3]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Odjavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6a0c8d-753c-4c7d-8b2f-7b1d26b9caa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'  Moj nalog ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45eb7648-2c8e-4c8a-8cad-37c592e7e01b",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration-icon",
+      "targets": [
+        ["id=registration-icon", "id"],
+        ["linkText=Registracija", "linkText"],
+        ["css=#registration-icon", "css:finder"],
+        ["xpath=//a[@id='registration-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tempo-tehnika.rs/registracija')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07597c1c-74b3-4da6-a1d8-f3f36fff7442",
+      "comment": "",
+      "command": "click",
+      "target": "id=ime",
+      "targets": [
+        ["id=ime", "id"],
+        ["name=ime", "name"],
+        ["css=#ime", "css:finder"],
+        ["xpath=//input[@id='ime']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e2c47b-808b-42ef-830c-1ae73b99fc22",
+      "comment": "",
+      "command": "type",
+      "target": "id=ime",
+      "targets": [
+        ["id=ime", "id"],
+        ["name=ime", "name"],
+        ["css=#ime", "css:finder"],
+        ["xpath=//input[@id='ime']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Zarko"
+    }, {
+      "id": "3f197a9b-9349-4122-9736-fa3da61906b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=prezime",
+      "targets": [
+        ["id=prezime", "id"],
+        ["name=prezime", "name"],
+        ["css=#prezime", "css:finder"],
+        ["xpath=//input[@id='prezime']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Obradovic"
+    }, {
+      "id": "3074cd35-2166-40b8-979e-50e450b67941",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "bbbbccccddd@gmail.com"
+    }, {
+      "id": "0fb1d0dd-07f3-4dab-a405-9b6324dcaf77",
+      "comment": "",
+      "command": "click",
+      "target": "id=lozinka",
+      "targets": [
+        ["id=lozinka", "id"],
+        ["name=lozinka", "name"],
+        ["css=#lozinka", "css:finder"],
+        ["xpath=//input[@id='lozinka']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6e664a-c8c6-4f51-8c17-853354d01f38",
+      "comment": "",
+      "command": "type",
+      "target": "id=lozinka",
+      "targets": [
+        ["id=lozinka", "id"],
+        ["name=lozinka", "name"],
+        ["css=#lozinka", "css:finder"],
+        ["xpath=//input[@id='lozinka']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "adminadmin123"
+    }, {
+      "id": "287fcc61-c13b-4038-b594-e9a39c2f1cc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefon",
+      "targets": [
+        ["id=telefon", "id"],
+        ["name=telefon", "name"],
+        ["css=#telefon", "css:finder"],
+        ["xpath=//input[@id='telefon']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28993302-8e70-4ab7-b19f-a18f0af126c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefon",
+      "targets": [
+        ["id=telefon", "id"],
+        ["name=telefon", "name"],
+        ["css=#telefon", "css:finder"],
+        ["xpath=//input[@id='telefon']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "060123456"
+    }, {
+      "id": "155072e2-c037-4953-a2fe-77e2e98c3c7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=adresa",
+      "targets": [
+        ["id=adresa", "id"],
+        ["name=adresa", "name"],
+        ["css=#adresa", "css:finder"],
+        ["xpath=//input[@id='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a0e32fe-a1cd-487c-8361-2adc3af58caa",
+      "comment": "",
+      "command": "type",
+      "target": "id=adresa",
+      "targets": [
+        ["id=adresa", "id"],
+        ["name=adresa", "name"],
+        ["css=#adresa", "css:finder"],
+        ["xpath=//input[@id='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "Cacak"
+    }, {
+      "id": "807ff910-3b70-47ae-80ce-809e3827e0ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=mesto",
+      "targets": [
+        ["id=mesto", "id"],
+        ["name=mesto", "name"],
+        ["css=#mesto", "css:finder"],
+        ["xpath=//input[@id='mesto']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "126b5490-f5a3-4c18-b445-4dc76b14dad2",
+      "comment": "",
+      "command": "type",
+      "target": "id=mesto",
+      "targets": [
+        ["id=mesto", "id"],
+        ["name=mesto", "name"],
+        ["css=#mesto", "css:finder"],
+        ["xpath=//input[@id='mesto']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "Cacak"
+    }, {
+      "id": "0602da20-96fd-4271-b6a1-15f8838c5bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .button",
+      "targets": [
+        ["css=.text-center > .button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registruj se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07ad8637-b72b-4eaa-8977-88d55efc5ab3",
+    "name": "RegistracijaProveraPrijave",
+    "commands": [{
+      "id": "04c0ba14-b3ca-4265-9b4c-78d74015b87e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6226281e-5bd5-41b6-903f-06a2ce483428",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c68eae4-032e-4f93-bfba-ca6d598d680d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'  Moj nalog ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a59babc7-9024-4a8b-868c-74fdef90f034",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["linkText=Prijavi se", "linkText"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29c873e-2985-4bd2-a8b0-da807105213d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["linkText=Prijavi se", "linkText"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11bef350-4563-43da-9efa-d71225dac679",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-icon",
+      "targets": [
+        ["id=login-icon", "id"],
+        ["css=#login-icon", "css:finder"],
+        ["xpath=//a[@id='login-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'\n                                     Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73bc6f2c-27bc-4a58-97e5-58a1db8ed2c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSemail_login",
+      "targets": [
+        ["id=JSemail_login", "id"],
+        ["css=#JSemail_login", "css:finder"],
+        ["xpath=//input[@id='JSemail_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21105ae9-ac55-4a77-b4bb-ebfe4bd59b4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=JSemail_login",
+      "targets": [
+        ["id=JSemail_login", "id"],
+        ["css=#JSemail_login", "css:finder"],
+        ["xpath=//input[@id='JSemail_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mejlzalekcije@gmail.com"
+    }, {
+      "id": "5a9a85fa-aac1-4fed-b236-f6362763fbed",
+      "comment": "",
+      "command": "type",
+      "target": "id=JSpassword_login",
+      "targets": [
+        ["id=JSpassword_login", "id"],
+        ["css=#JSpassword_login", "css:finder"],
+        ["xpath=//input[@id='JSpassword_login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "adminadmin12345"
+    }, {
+      "id": "5b8cbcb4-9446-4503-8c2c-56987c34a4dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f966fa2-9f7a-4504-9b9a-e2ba6a206acd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8a91bad1-45b6-4391-bf58-95018e26c1bd",
+    "name": "identicniPodaci",
+    "commands": [{
+      "id": "48e184e1-11c9-470b-b21b-2453749d875a",
+      "comment": "",
+      "command": "open",
+      "target": "/korisnik/zarko-obradovic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8f56a76-302a-422e-b964-d5787ee9dc9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85c50f72-8428-421b-bc5f-4a93122b09be",
+      "comment": "",
+      "command": "click",
+      "target": "name=ime",
+      "targets": [
+        ["name=ime", "name"],
+        ["css=.col-md-6:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='ime']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd2e4a4-e763-4467-be04-dbe4b7fc83b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezime",
+      "targets": [
+        ["name=prezime", "name"],
+        ["css=.col-md-6:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='prezime']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c21173-328d-4441-9dc0-27bbc9ab53b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-md-6:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b7b358-3a1d-4373-9b72-e27ed88fae4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=lozinka",
+      "targets": [
+        ["name=lozinka", "name"],
+        ["css=.col-md-3:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='lozinka']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d504f48f-58d5-46cd-b056-4c2747ace14f",
+      "comment": "",
+      "command": "click",
+      "target": "name=telefon",
+      "targets": [
+        ["name=telefon", "name"],
+        ["css=.col-md-3:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='telefon']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9754577-e376-443b-9ea9-94f8a23f0205",
+      "comment": "",
+      "command": "click",
+      "target": "name=adresa",
+      "targets": [
+        ["name=adresa", "name"],
+        ["css=.col-md-6:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c928043-8873-4a8e-93ac-bf47eb38ebf9",
+      "comment": "",
+      "command": "click",
+      "target": "name=mesto",
+      "targets": [
+        ["name=mesto", "name"],
+        ["css=.col-md-6:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='mesto']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/form/div/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2956922b-248c-4dd0-89b3-d3e61fa5bf66",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f965ebbd-8588-4c0b-9b08-dd3f2ea525df",
+    "name": "testSearchPolja",
+    "commands": [{
+      "id": "b9d4c10f-2863-4b03-afac-74e03e29b7a8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b372545-3e1b-4d8c-94fe-1f10fa7cf19d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63a0e1e4-7538-46d9-9cd0-9fc28463e47c",
+      "comment": "",
+      "command": "click",
+      "target": "id=JSsearch2",
+      "targets": [
+        ["id=JSsearch2", "id"],
+        ["css=#JSsearch2", "css:finder"],
+        ["xpath=//input[@id='JSsearch2']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea3e54d6-3faf-4de2-a915-c5823f782fc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=JSsearch2",
+      "targets": [
+        ["id=JSsearch2", "id"],
+        ["css=#JSsearch2", "css:finder"],
+        ["xpath=//input[@id='JSsearch2']", "xpath:attributes"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fox tv"
+    }, {
+      "id": "9572aab9-008f-46bc-8fda-b41cbfd82a67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-6:nth-child(3)",
+      "targets": [
+        ["css=.col-sm-6:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c0391e-993e-48b1-9186-e793aebf69c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='JSfixed_header']/div[3]/div/div[2]/div/div[3]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8b8e742-7bc4-4114-8ff7-c761be82573f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JSproduct-list",
+      "targets": [
+        ["css=.JSproduct-list", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25435480-272e-48d8-bbc9-ac9a171de5b1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d094a88-a2f0-49de-bb6b-deb98c16c68e",
+    "name": "Okompaniji",
+    "commands": [{
+      "id": "3de18955-a80e-45cf-9244-ad1f510e4f08",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d6a8cb-f91a-4240-a8b3-643845b53657",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c30e6753-a8d6-4389-b9cd-fab58cff9d9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-links > li:nth-child(7) > a",
+      "targets": [
+        ["css=.footer-links > li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'O NAMA')])[2]", "xpath:link"],
+        ["xpath=//body[@id='start-page']/footer/div/div/div/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tempo-tehnika.rs/o-nama')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/div/div[2]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6574a7-8648-4226-b5fa-52cc74cdd411",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-content",
+      "targets": [
+        ["css=.new-content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d8ff73-527e-4bb0-9168-695f48919624",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-content > p:nth-child(5)",
+      "targets": [
+        ["css=.new-content > p:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/p[4]", "xpath:idRelative"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'2018. Naša treću maloprodaju smo otvorili u junu i ona se nalazi u Atinskoj 2/4 (Aerodrom).')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ad329a-dfd1-4ab1-828e-56e402845c24",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6ef37f0-1a4b-4d30-a822-69663e5fdc48",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d0b896e7-3fc9-4bd9-9fdb-a5231f5043a9"]
+  }],
+  "urls": ["https://www.tempo-tehnika.rs/"],
+  "plugins": []
+}

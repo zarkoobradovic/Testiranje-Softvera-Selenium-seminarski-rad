@@ -1,0 +1,77 @@
+
+Ime testa : Identicni podaci 
+Opis testa : Test  proverava da li su podaci kori≈°ƒáeni pri registraciji jednaki sa podacima na va≈°em profilu 
+Test je uspesan 
+
+
+
+
+Ime testa : Dodavanje proizvoda u omiljene 
+Opis testa : Test proverava da li su proizvodi dodati u omiljene i proverava da li proizvod ima isto ime kao dodati 
+Test je uspesan 
+
+
+Ime testa : O nama 
+Opis testa : Test uzima podatke o kompaniji Tempo tehnika 
+Test je uspesan 
+
+Viöe od 24 godine sa Vama...
+Preduze?e TEMPO d.o.o. Kragujevac se je osnovano 1995. godine bavi prodajom öirokog spektra tehni?kih ure?aja. Pod ovim PIB-om smo registrovani od 1997. Od 2016. godine po?eli smo sa öirenjem maloprodajne mreûe. Bavimo se prodajom bele tehnike, televizora, malih ku?nih aparata, mobilnih telefona, laptop ure?aja kao i ure?aja za grejanje i hladjenje. U svakom trenutku moûete kupovati preko naöeg online shop-a www.tempo-tehnika.rs, gde ukoliko naru?ite artikal preko 3000 rsd, imate besplatnu isporuku na teritoriji Republike Srbije (bez AP Kosovo i Metohija). Ukoliko ste iz Kragujevca ili okoline moûete svratite do naöih pet maloprodaja.
+2016. Otvorena je naöa druga maloprodaja koja se nalazi u ulici dr Zorana ?in?i?a 19.
+2018. Naöa tre?u maloprodaju smo otvorili u junu i ona se nalazi u Atinskoj 2/4 (Aerodrom).
+2019. U februaru smo otvorili ?etvrtu prodavnicu u kojoj se nalazi isklju?ivo bela tehnika i ona se nalazi odmah pored naöe druge maloprodaje u centru grada.
+2019. Nastavljamo dalje i u junu smo otvaramo i petu maloprodaju koja se nalazi u Pivari.
+  Radno vreme maloprodaja (osim prodavnice 3.) je od 08:00h - 20:00h svakim radnim danom, a subotom od 08:00h - 15:00h. 
+Telefoni i adrese maloprodaja su:
+Prodavnica 1: 034/336-650 (dr Zorana ?in?i?a 13)
+Prodavnica 2: 034-301-666 (dr Zorana ?in?i?a 19)
+Prodavnica 3: 034-340-840 (Atinska 2/4b - Radno vreme: od 09:00h - 17:00h svakim radnim danom, a subotom od 09:00h - 15:00h)
+Prodavnica 4: 034-301-667 (dr Zorana ?in?i?a 17)
+Prodavnica 5: 034/360-077 (dr Jovana Risti?a 6)
+CALL CENTAR: 034/33 33 35
+  U prvih 20 godina postojanja uspostavili smo odli?an odnos sa kupcima koji nam to vra?aju poverenjem i ûeljom da dalje sara?uju sa nama öto je ujedno i najvaûniji pokazatelj uspeönosti naöeg poslovanja. Svakako se nadamo da ?e u narednim godinama saradnja biti joö bliûa i da ?e broj zadovoljnih kupaca biti jos ve?i. Pored postoje?ih u planu su i otvaranja novih maloprodajnih objekata u naöem gradu i regionu.
+Hvala Vam na poverenju!
+Vaö Tempo d.o.o. Kragujevac
+ 
+
+
+
+
+
+Ime testa : Performasne otvaranja 
+Opis testa : Performanse otvaranja 5 razliƒçitih stranica 
+Test je uspesan 
+
+
+Izvestaj o performansama stranica.
+Pocetna stranica: 7791.0
+Audio Video stranica: 2371.0
+Mobilni-telefoni-i-tableti stranica: 1879.0
+Laptop--i-desktop-racunari stranica: 1765.0
+Grejanje-i-klimatizacija stranica: 1837.0
+
+--------------------------------------------------------------
+Srednja vrednost: 3128.6
+
+Ime testa : Provera linkova drustvenih mreza 
+Opis testa : Test proverava putanje do drustvenih mreza da li su ispravne i da li ce se otvoriti stranica prodavnice na odabranoj drustvenoj mrezi 
+Test je uspesan 
+
+
+Ime testa : Provera prijave na prodavnicu i registracija
+Opis testa : Test proverava da li ce prijava biti uspesna 
+Test je uspesan 
+
+
+Ime test : search
+Opis testa : Provera pretrazianja sajta
+Test je uspesan
+Ime testa : Dodavanje 3 proizvoda u korpu 
+Opis testa : Test proverava da li ce proizvodi biti uspesno dodati u korpu 
+Test je uspesan 
+
+
+Ime testa : Dodavanje 3 proizvoda u korpu 
+Opis testa : Test proverava da li ce proizvodi biti uspesno dodati u korpu 
+Test je uspesan 
+
